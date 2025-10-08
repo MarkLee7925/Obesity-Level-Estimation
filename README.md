@@ -19,7 +19,7 @@ As of 2025-10-07, the following classification models were implemented in this p
 
 To ensure consistent performance for varying data characteristics, the data used for training the models were randomly sampled without replacement.
 
-Moreover, hypothesis testing was performed to determine if the differences between male and female samples for specific features are statistically significant or due to random chance. These results highlighted the need for additional Machine Learning scripts to classify Male and Female records separately.
+Moreover, in order to determine if the differences between male and female samples for specific features are statistically significant or due to random chance, hypothesis testing was performed (specifically Student's t-Test and Analysis of Variance (ANOVA)). These results highlighted the need for additional Machine Learning scripts to classify Male and Female records separately.
 
 ## References:
 
