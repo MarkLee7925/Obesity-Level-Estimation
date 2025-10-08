@@ -1,6 +1,6 @@
 # Obesity-Level-Estimation
 
-The main purpose of this Machine Learning classification project is to categorize the obesity levels of 2,100+ records using multi-class classification methods. This was achieved using four different classification models. Each model was cross-validated and tuned to achieve the best possible accuracy with their optimal hyperparameters.
+The main purpose of this Machine Learning classification project is to categorize the obesity levels of 2,100+ records using multi-class classification methods. This was achieved using four different classification models. Each model was cross-validated and tuned to achieve optimal accuracy using appropriate hyperparameters.
 
 ## Dataset:
 
