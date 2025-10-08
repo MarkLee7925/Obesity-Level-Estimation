@@ -4,19 +4,22 @@ The main purpose of this Machine Learning classification project is to categoriz
 
 ## Dataset:
 
-The dataset used in this project was retrieved from the UCI Machine Learning Repository (see References below). In total, there are 2,111 records; each representing a single individual. To ensure consistent performance for varying data characteristics, the data used for training the models were randomly sampled without replacement.
+The dataset used in this project was retrieved from the UCI Machine Learning Repository (see References below). In total, there are 2,111 records; each representing a single individual. Out of all records, 1,068 are male whereas 1,043 are female. 
 
 Additional information about each feature can be found in the "metadata.xlsx" file.
 
-## Models:
+## Implementation:
 
-As of 2025-10-07, the following models were implemented in this project:
+As of 2025-10-07, the following classification models were implemented in this project:
 
 - K-Nearest Neighbours (KNN)
 - Support Vector Machine - Classification (SVC)
 - Random Forest (RF)
-- XGBoost (XGB)
+- XGBoost (XGB) (excluding Male and Female scripts)
 
+To ensure consistent performance for varying data characteristics, the data used for training the models were randomly sampled without replacement.
+
+Moreover, hypothesis testing was performed to determine if the differences between male and female samples for specific features are statistically significant or due to random chance. These results highlighted the need for additional Machine Learning scripts to classify Male and Female records separately.
 
 ## References:
 
