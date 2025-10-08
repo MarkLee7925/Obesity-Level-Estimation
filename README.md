@@ -6,7 +6,7 @@ The main purpose of this Machine Learning classification project is to categoriz
 
 The dataset used in this project was retrieved from the UCI Machine Learning Repository (see References below). In total, there are 2,111 records; each representing a single individual. To ensure consistent performance for varying data characteristics, the data used for training the models were randomly sampled without replacement.
 
-Additional information about each feature can be found in the ".txt" file.
+Additional information about each feature can be found in the "metadata.xlsx" file.
 
 ## Models:
 
