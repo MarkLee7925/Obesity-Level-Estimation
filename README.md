@@ -1,6 +1,8 @@
 # Obesity-Level-Estimation
 
-The main purpose of this Machine Learning classification project is to categorize the obesity levels of 2,100+ records using multi-class classification methods. This was achieved using four different classification models. Each model was cross-validated and tuned to achieve optimal accuracy using appropriate hyperparameters.
+The main purpose of this Machine Learning classification project is to categorize the obesity levels of 2,100+ records using multi-class classification methodologies. This was achieved using four different classification models. Each model was cross-validated and tuned to achieve optimal accuracy using appropriate hyperparameters.
+
+Ultimately, the end goal is to determine how many individuals are overweight and/or obese as well as identifying contributing factors. Due to the inherent variance in the data, this was also achieved for Males and Females separately.
 
 ## Dataset:
 
@@ -10,7 +12,7 @@ Additional information about each feature can be found in the "metadata.xlsx" fi
 
 ## Implementation:
 
-As of 2025-10-07, the following classification models were implemented in this project:
+Currently, the following classification models were implemented in this project:
 
 - K-Nearest Neighbours (KNN)
 - Support Vector Machine - Classification (SVC)
