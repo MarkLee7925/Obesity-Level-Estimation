@@ -1,38 +1,55 @@
-# Overall
+# Important Features per Model:
 
+Using a random sample of 50 records (without replacement), the SHAP values were calculated to determine the most influential features (attributes) per model. These represent factors that could influence the obesity levels of all represented individuals in our dataset.
+
+During the partition of training and test sets, a random state value of 42 was used to ensure the results are reproducible across multiple environments. However, results may vary depending on the set value.
 
 ## Machine Learning (ML) Models:
 
-The following ML classification models were implemented. Using a random sample of 50 records (without replacement), the SHAP values were calculated to determine the most influential features per model.
+Below are the following ML classification models implemented along with their top 5 most important features:
 
 ### K-Nearest Neighbours (KNN):
 
 <img width="758" height="620" alt="EstObesity-SHAP-KNN" src="https://github.com/user-attachments/assets/a74260c7-77ca-45e4-9402-39dd51a0312c" />
 
-
-
+Top 5 most important features:
+- Overweight History (Feature 4)
+- Weight (Feature 3)
+- Water Consumption (Feature 10)
+- Main Meals per Day (Feature 7)
+- Gender (Feature 0)
+  
 ### Support Vector Classification (SVC):
 
+<img width="758" height="620" alt="EstObesity-SHAP-SVC" src="https://github.com/user-attachments/assets/e376b959-2a59-48fb-b066-2215645f080b" />
 
+Top 5 most important features:
+- Weight (Feature 3)
+- Height (Feature 2)
+- Gender (Feature 0)
+- Age (Feature 1)
+- Vegetables During Meals (Feature 6)
 
 ### Random Forest (RF):
 
+<img width="758" height="620" alt="EstObesity-SHAP-RF" src="https://github.com/user-attachments/assets/f2817abe-49ab-4a52-a8d2-8eeacc5eb95e" />
 
+Top 5 most important features:
+- Weight (Feature 3)
+- Height (Feature 2)
+- Age (Feature 1)
+- Vegetables During Meals (Feature 6)
+- Gender (Feature 0)
 
 ### XGBoost (XGB):
 
+<img width="758" height="620" alt="EstObesity-SHAP-XGB" src="https://github.com/user-attachments/assets/d1f768b1-f92a-4bd7-b19e-857ac8412674" />
 
+Top 5 most important features:
+- Weight (Feature 3)
+- Height (Feature 2)
+- Gender (Feature 0)
+- Vegetables During Meals (Feature 6)
+- Food Between Meals (Feature 8)
 
-For each model, the SHAP value was computed to determine which feature was most influential in correctly classifying obesity levels. The results for each model can be found in each script folder. 
-
-To ensure consistent performance for varying data characteristics, the data used for training the models were randomly sampled without replacement. The degree of randomness also affects the final accuracy results and run times for each model.
-
-As of October 8th, 2025, all models achieved accuracy results of over 80% with average run-times of under 3 minutes.
-
-Moreover, to determine if the differences between male and female samples for specific features were statistically significant or due to random chance, hypothesis testing was performed (e.g: Student's t-Test). After testing, the results highlighted significant differences between male and female samples across several features. This suggests the need for additional Machine Learning models to classify Male and Female records separately. A significance level of 0.05 (5%) was used as it is the most commonly-used value in general hypothesis testing.
-
-## References:
-
-1. https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
-2. https://www.semanticscholar.org/paper/Dataset-for-estimation-of-obesity-levels-based-on-Palechor-Manotas/35b40bacd2ffa9370885b7a3004d88995fd1d011
 
