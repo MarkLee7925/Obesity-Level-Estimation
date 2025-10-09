@@ -1,8 +1,8 @@
 # Obesity-Level-Estimation
 
-The main purpose of this Machine Learning classification project is to categorize the obesity levels of 2,100+ records using multi-class classification methodologies. This was achieved using four different classification models. Each model was cross-validated and tuned to achieve optimal accuracy using appropriate hyperparameters.
+The main purpose of this Machine Learning classification project is to categorize the obesity levels of 2,100+ people using multi-class classification methodologies. This was achieved using four different classification models. Each model was cross-validated and tuned to achieve optimal accuracy using appropriate hyperparameters.
 
-Ultimately, the end goal is to determine how many individuals are overweight and/or obese as well as identifying contributing factors. Due to the inherent variance in the data, this was also achieved for Males and Females separately.
+Ultimately, the end goal is to determine how many people are overweight and/or obese as well as identifying contributing factors to their current respective weight levels. Due to the inherent variance in the data, this was also achieved for Males and Females separately.
 
 ## Dataset:
 
@@ -19,9 +19,13 @@ Currently, the following classification models were implemented in this project:
 - Random Forest (RF)
 - XGBoost (XGB) (excluding Male and Female scripts)
 
-To ensure consistent performance for varying data characteristics, the data used for training the models were randomly sampled without replacement.
+For each model, the SHAP value was computed to determine which feature was most influential in correctly classifying obesity levels. The results for each model can be found in each script folder. 
 
-Moreover, in order to determine if the differences between male and female samples for specific features are statistically significant or due to random chance, hypothesis testing was performed (e.g: Student's t-Test). These results highlighted the need for additional Machine Learning scripts to classify Male and Female records separately.
+To ensure consistent performance for varying data characteristics, the data used for training the models were randomly sampled without replacement. The degree of randomness also affects the final accuracy results and run times for each model.
+
+As of October 8th, 2025, all models achieved accuracy results of over 80% with average run-times of under 3 minutes each.
+
+Moreover, in order to determine if the differences between male and female samples for specific features are statistically significant or due to random chance, hypothesis testing was performed (e.g: Student's t-Test). After analysis, the results highlighted significant differences between male and female samples across many features thereby suggesting the need for additional Machine Learning scripts to classify Male and Female records separately. A significance level of 0.05 (5%) was used as it is the most relevant and most common value in general hypothesis testing.
 
 ## References:
 
