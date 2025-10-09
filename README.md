@@ -31,6 +31,8 @@ Moreover, to determine if the differences between male and female samples for sp
 
 For each script, neither the computed SHAP values nor the represented features for all models indicate the "true" causes for obesity. Additional external factors apart from those used in our dataset as well as further in-depth research over time is required to present a clearer picture on the obesity level results obtained.
 
+Additionally, the Machine Learning results obtained are only for illustration and data analytics purposes. No attempt should be made to utilize the same results and/or methodologies for classifying/predicting obesity levels for other uses.
+
 ## References:
 
 1. https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
