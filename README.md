@@ -1,12 +1,12 @@
 # Obesity-Level-Estimation
 
-The main purpose of this Machine Learning classification project is to categorize the obesity levels of 2,100+ people using multi-class classification methodologies. This was achieved using four different classification models. Each model was cross-validated and tuned to achieve optimal accuracy using appropriate hyperparameters.
+The main purpose of this Machine Learning classification project is to categorize the obesity levels of 2,100+ people using multi-class classification methodologies. This was achieved using four different classification models; each were cross-validated and tuned to achieve optimal accuracy using appropriate hyperparameters.
 
-Ultimately, the end goal is to determine how many people are overweight and/or obese as well as identifying contributing factors to their current respective weight levels. Due to the inherent variance in the data, this was also achieved for Males and Females separately.
+Ultimately, the end goal is to determine how many people are overweight and/or obese as well as identify possible contributing factors leading to their current respective weight levels. Due to the inherent variance in the data, this was also achieved for Males and Females separately.
 
 ## Dataset:
 
-The dataset used in this project was retrieved from the UCI Machine Learning Repository (see References below). In total, there are 2,111 records; each representing a single individual. Out of all records, 1,068 are male whereas 1,043 are female. 
+The dataset used in this project was retrieved from the UCI Machine Learning Repository (see References below). In total, there are 2,111 records; each representing a single individual. Out of all records, 1,068 were male whereas 1,043 were female. 
 
 Additional information about each feature can be found in the "metadata.xlsx" file.
 
