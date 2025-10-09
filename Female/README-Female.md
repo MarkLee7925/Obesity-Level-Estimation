@@ -4,6 +4,17 @@ Using a random sample of 50 records (without replacement), the SHAP values were 
 
 During the partition of training and test sets, a random state value of 1,000 was used to ensure the results are reproducible across multiple environments. However, results may vary depending on the set value.
 
+## List of Features:
+
+0. Age
+1. Height
+2. Weight
+3. Overweight History
+4. High Caloric Foods
+5. Food Between Meals
+6. Alcohol Consumption
+7. Transportation Mode
+
 ## Machine Learning (ML) Models:
 
 Below are the following ML classification models implemented along with their top 5 most important features:
