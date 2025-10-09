@@ -23,7 +23,7 @@ For each model, the SHAP value was computed to determine which feature was most 
 
 To ensure consistent performance for varying data characteristics, the data used for training the models were randomly sampled without replacement. The degree of randomness also affects the final accuracy results and run times for each model.
 
-As of October 8th, 2025, all models achieved accuracy results of over 80% with average run-times of under 3 minutes each.
+As of October 8th, 2025, all models achieved accuracy results of over 80% with average run-times of under 3 minutes.
 
 Moreover, in order to determine if the differences between male and female samples for specific features are statistically significant or due to random chance, hypothesis testing was performed (e.g: Student's t-Test). After analysis, the results highlighted significant differences between male and female samples across many features thereby suggesting the need for additional Machine Learning scripts to classify Male and Female records separately. A significance level of 0.05 (5%) was used as it is the most relevant and most common value in general hypothesis testing.
 
