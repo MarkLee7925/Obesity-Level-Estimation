@@ -13,15 +13,11 @@ During the partition of training and test sets, a random state value of 42 was u
 4. Overweight History
 5. High Caloric Foods
 6. Vegetables in Meals 
-7. Main Meals per Day
-8. Food Between Meals
-9. Smoking
-10. Water Consumption
-11. Monitor Calories
-12. Physical Activity
-13. Time on Tech Devices
-14. Alcohol Consumption
-15. Transportation Mode
+7. Food Between Meals
+8. Water Consumption
+9. Physical Activity
+10. Alcohol Consumption
+11. Transportation Mode
 
 ## Machine Learning (ML) Models:
 
