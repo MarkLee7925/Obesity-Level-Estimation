@@ -15,7 +15,7 @@ Additional information about each feature can be found in the "metadata.xlsx" fi
 Currently, the following classification models were implemented in this project:
 
 - K-Nearest Neighbours (KNN)
-- Support Vector Machine - Classification (SVC)
+- Support Vector Classification (SVC)
 - Random Forest (RF)
 - XGBoost (XGB) (excluding Male and Female scripts)
 
