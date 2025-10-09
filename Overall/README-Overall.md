@@ -3,10 +3,11 @@
 
 ## Machine Learning (ML) Models:
 
-The following ML classification models were implemented. Using a random sample of 50 records (without replacement), the SHAP values were calculated to determine the most-influential features per model
+The following ML classification models were implemented. Using a random sample of 50 records (without replacement), the SHAP values were calculated to determine the most influential features per model.
 
 ### K-Nearest Neighbours (KNN):
 
+<img width="758" height="620" alt="EstObesity-SHAP-KNN" src="https://github.com/user-attachments/assets/a74260c7-77ca-45e4-9402-39dd51a0312c" />
 
 
 
