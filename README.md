@@ -1,6 +1,6 @@
 # Obesity-Level-Estimation
 
-The main purpose of this project was to categorize the obesity levels of 2,100+ people. This was achieved using several Machine Learning (ML) classification models; each  cross-validated and tuned to achieve optimal accuracy using appropriate hyperparameters.
+The main purpose of this project was to categorize the obesity levels of 2,100+ individuals from Mexico, Peru and Colombia. This was achieved using several Machine Learning (ML) classification models; each  cross-validated and tuned to achieve optimal accuracy using appropriate hyperparameters.
 
 Ultimately, the end goal was to determine how many people are overweight and/or obese as well as identify possible contributing factors leading to their current respective weight levels. Due to the inherent variance in the data, this was also achieved for Males and Females separately.
 
