@@ -6,7 +6,7 @@ Ultimately, the end goal was to determine how many people are overweight and/or 
 
 ## Dataset:
 
-The dataset used in this project was retrieved from the UCI Machine Learning Repository (see References below). In total, there are 2,111 records; each representing a single individual. Out of all records, 1,068 were male whereas 1,043 were female. 
+The dataset used in this project was retrieved from the UCI Machine Learning Repository (see References below). In total, there are 2,111 records (1,068 male and 1,043 female). 
 
 Additional information about each feature can be found in the "metadata.xlsx" file.
 
