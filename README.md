@@ -36,5 +36,6 @@ Furthermore, the Machine Learning results obtained are only for illustration and
 ## References:
 
 1. https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
-2. https://www.semanticscholar.org/paper/Dataset-for-estimation-of-obesity-levels-based-on-Palechor-Manotas/35b40bacd2ffa9370885b7a3004d88995fd1d011
+2. https://www.sciencedirect.com/science/article/pii/S2352340919306985?via%3Dihub
+3. https://www.semanticscholar.org/paper/Dataset-for-estimation-of-obesity-levels-based-on-Palechor-Manotas/35b40bacd2ffa9370885b7a3004d88995fd1d011
 
